@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact>
-        <Blog />
+          <Homepage />
         </Route>
         <Route path="/blog/:slug" children={<SinglePost />}></Route>
         <Route path="/blog">
