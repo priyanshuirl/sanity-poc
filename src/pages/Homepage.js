@@ -11,6 +11,7 @@ export default function Homepage() {
         <button>
           <a
           target="_blank"
+          rel="noreferrer"
             href="https://calyx-blogs-poc.sanity.studio/structure/post"
             className="py-2 px-6 rounded shadow text-white bg-black hover:bg-transparent  transition-all duration-500 hover:text-black font-bold"
             style={{background:'#056b0a'}}
